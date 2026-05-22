@@ -2,6 +2,18 @@
   <img src="githero.png" alt="hero" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,35:7C3AED,70:FF2E63,100:FACC15&height=210&section=header&text=Keshav%20Sharma&fontSize=62&fontAlignY=38&desc=AI%20products%20%E2%80%A2%20automation%20%E2%80%A2%20interfaces%20%E2%80%A2%20shipping%20fast&descAlignY=62&descSize=18&fontColor=ffffff&animation=fadeIn" alt="Keshav Sharma animated header" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2200&pause=500&color=00F5FF&center=true&vCenter=true&width=900&lines=const+builder+%3D+%22Keshav+Sharma%22%3B;shipping+DeepSleep+AI+%2B+UseMyAI.pro;building+agents+%E2%80%A2+interfaces+%E2%80%A2+automation;old+account+banned+%E2%86%92+rebuilt+with+receipts" alt="animated code typing banner" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=15&duration=1800&pause=350&color=22C55E&center=true&vCenter=true&width=920&lines=%3E+npm+run+ship;%3E+python+-m+deepsleep_ai;%3E+codex+%2B+claude+%2B+opencode;%3E+vercel+deploy+--prod" alt="animated terminal commands" />
+</p>
+
 <table>
   <tr>
     <td width="82%" valign="top">
@@ -51,7 +63,12 @@
     <td width="18%" align="center" valign="top">
       <br>
       <br>
-      <h1>K<br>E<br>S<br>H<br>A<br>V</h1>
+      <img src="https://img.shields.io/badge/K-00F5FF?style=for-the-badge&labelColor=0D1117" alt="K" /><br>
+      <img src="https://img.shields.io/badge/E-7C3AED?style=for-the-badge&labelColor=0D1117" alt="E" /><br>
+      <img src="https://img.shields.io/badge/S-FF2E63?style=for-the-badge&labelColor=0D1117" alt="S" /><br>
+      <img src="https://img.shields.io/badge/H-FACC15?style=for-the-badge&labelColor=0D1117" alt="H" /><br>
+      <img src="https://img.shields.io/badge/A-22C55E?style=for-the-badge&labelColor=0D1117" alt="A" /><br>
+      <img src="https://img.shields.io/badge/V-38BDF8?style=for-the-badge&labelColor=0D1117" alt="V" />
     </td>
   </tr>
 </table>
