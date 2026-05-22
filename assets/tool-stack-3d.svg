@@ -1,113 +1,131 @@
-<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">3D tool stack badge board</title>
-  <desc id="desc">A dark 3D badge board featuring DeepSleep AI and UseMyAI on top, with yellatmetofocus and basalt below.</desc>
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Language and AI stack banners</title>
+  <desc id="desc">A dark 3D-style board with language banners for TypeScript, Python, JavaScript, Swift, and Shell, plus AI stack tiles for Codex, Claude, OpenCode, Supabase, and Vercel.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070B12"/>
-      <stop offset="0.48" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#08140F"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A12"/>
+      <stop offset="0.5" stop-color="#0C1220"/>
+      <stop offset="1" stop-color="#07120E"/>
     </linearGradient>
-    <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#2563EB"/>
-    </linearGradient>
-    <linearGradient id="use" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#22C55E"/>
+    <linearGradient id="rim" x1="96" y1="68" x2="1104" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
       <stop offset="1" stop-color="#FACC15"/>
     </linearGradient>
-    <linearGradient id="focus" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#38BDF8"/>
-    </linearGradient>
-    <linearGradient id="basalt" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F97316"/>
-      <stop offset="1" stop-color="#EF4444"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+    <linearGradient id="ts" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="py" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3776AB"/><stop offset="1" stop-color="#FFD43B"/></linearGradient>
+    <linearGradient id="js" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7DF1E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+    <linearGradient id="swift" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F97316"/><stop offset="1" stop-color="#EF4444"/></linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#94A3B8"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="shadow" x="-25%" y="-40%" width="150%" height="190%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.48"/>
     </filter>
-    <filter id="glowBlue" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.1 0 0 0 0 0.6 0 0 0 0 1 0 0 0 0.45 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
-    </filter>
-    <filter id="glowGreen" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.25 0 0 0 0 1 0 0 0 0 0.45 0 0 0 0.38 0"/>
+    <filter id="glow" x="-40%" y="-50%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.10 0 0 0 0 0.75 0 0 0 0 0.55 0 0 0 0.32 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
     </filter>
     <style>
-      .label { font-family: Inter, Segoe UI, Arial, sans-serif; font-weight: 900; letter-spacing: 0; }
-      .copy { font-family: Inter, Segoe UI, Arial, sans-serif; font-weight: 600; letter-spacing: 0; }
-      .mono { font-family: Fira Code, SFMono-Regular, Consolas, monospace; font-weight: 700; letter-spacing: 0; }
+      .title { font-family: Inter, Segoe UI, Arial, sans-serif; font-weight: 900; letter-spacing: 0; }
+      .copy { font-family: Inter, Segoe UI, Arial, sans-serif; font-weight: 650; letter-spacing: 0; }
+      .mono { font-family: Fira Code, SFMono-Regular, Consolas, monospace; font-weight: 800; letter-spacing: 0; }
     </style>
   </defs>
 
-  <rect width="1200" height="620" rx="34" fill="url(#bg)"/>
-  <rect x="24" y="24" width="1152" height="572" rx="30" stroke="#263244" stroke-width="2"/>
-  <path d="M78 482C210 386 315 425 430 355C522 300 584 184 695 206C808 228 844 387 980 329C1047 300 1092 246 1130 164" stroke="#22C55E" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
-  <path d="M84 154H1116M84 268H1116M84 382H1116M84 496H1116" stroke="#1F2937" stroke-width="1.2" stroke-dasharray="7 12"/>
-  <path d="M180 76V544M420 76V544M660 76V544M900 76V544" stroke="#1F2937" stroke-width="1.2" stroke-dasharray="7 12"/>
+  <rect width="1200" height="560" rx="32" fill="url(#bg)"/>
+  <rect x="22" y="22" width="1156" height="516" rx="28" stroke="#263244" stroke-width="2"/>
+  <path d="M82 446C216 354 335 404 452 319C550 248 642 135 762 170C876 203 900 365 1040 272" stroke="url(#rim)" stroke-width="3" stroke-opacity="0.45" filter="url(#glow)"/>
+  <path d="M76 142H1124M76 280H1124M76 418H1124" stroke="#1F2937" stroke-dasharray="7 11"/>
 
-  <text x="394" y="76" fill="#F8FAFC" class="label" font-size="38">current tool stack</text>
-  <text x="332" y="108" fill="#8B949E" class="copy" font-size="17">top shelf: shipped AI products / lower shelf: experiments and utilities</text>
+  <text x="70" y="80" fill="#F8FAFC" class="title" font-size="34">stack banners</text>
+  <text x="70" y="110" fill="#94A3B8" class="copy" font-size="17">languages I ship with, AI tools I build beside</text>
 
   <g filter="url(#shadow)">
-    <g transform="translate(128 150)">
-      <path d="M0 36C0 16.118 16.118 0 36 0H430C449.882 0 466 16.118 466 36V160C466 179.882 449.882 196 430 196H36C16.118 196 0 179.882 0 160V36Z" fill="#0D1117" stroke="#334155" stroke-width="2"/>
-      <path d="M0 160C0 179.882 16.118 196 36 196H430C449.882 196 466 179.882 466 160V128C466 147.882 449.882 164 430 164H36C16.118 164 0 147.882 0 128V160Z" fill="#05070B" opacity="0.7"/>
-      <rect x="30" y="31" width="70" height="70" rx="22" fill="url(#deep)" filter="url(#glowBlue)"/>
-      <path d="M66 50C83 50 94 62 94 78C94 91 84 101 67 105C47 102 36 91 36 75C36 60 48 50 66 50Z" fill="#E0F2FE"/>
-      <path d="M47 75C52 83 59 87 68 87C77 87 84 83 89 75" stroke="#0F172A" stroke-width="5" stroke-linecap="round"/>
-      <text x="124" y="62" fill="#F8FAFC" class="label" font-size="34">DeepSleep AI</text>
-      <text x="124" y="96" fill="#93C5FD" class="mono" font-size="17">pypi.org/project/deepsleep-ai</text>
-      <text x="124" y="130" fill="#94A3B8" class="copy" font-size="17">local-first AI memory, dev context, MCP, recall</text>
-      <rect x="124" y="146" width="86" height="28" rx="14" fill="#0F1B2D" stroke="#38BDF8"/>
-      <text x="167" y="166" text-anchor="middle" fill="#BAE6FD" class="mono" font-size="13">Python</text>
-      <rect x="220" y="146" width="72" height="28" rx="14" fill="#0F1B2D" stroke="#22C55E"/>
-      <text x="256" y="166" text-anchor="middle" fill="#BBF7D0" class="mono" font-size="13">MCP</text>
-      <rect x="302" y="146" width="92" height="28" rx="14" fill="#0F1B2D" stroke="#A855F7"/>
-      <text x="348" y="166" text-anchor="middle" fill="#E9D5FF" class="mono" font-size="13">Ollama</text>
+    <g transform="translate(70 154)">
+      <rect width="196" height="96" rx="22" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="0" y="66" width="196" height="30" rx="0" fill="#05070B" opacity="0.68"/>
+      <rect x="22" y="20" width="56" height="56" rx="14" fill="url(#ts)"/>
+      <text x="38" y="58" fill="#FFFFFF" class="title" font-size="25">TS</text>
+      <text x="96" y="43" fill="#F8FAFC" class="title" font-size="22">TypeScript</text>
+      <text x="96" y="68" fill="#93C5FD" class="mono" font-size="13">typed ui</text>
     </g>
-
-    <g transform="translate(606 150)">
-      <path d="M0 36C0 16.118 16.118 0 36 0H430C449.882 0 466 16.118 466 36V160C466 179.882 449.882 196 430 196H36C16.118 196 0 179.882 0 160V36Z" fill="#0D1117" stroke="#334155" stroke-width="2"/>
-      <path d="M0 160C0 179.882 16.118 196 36 196H430C449.882 196 466 179.882 466 160V128C466 147.882 449.882 164 430 164H36C16.118 164 0 147.882 0 128V160Z" fill="#05070B" opacity="0.7"/>
-      <rect x="30" y="31" width="70" height="70" rx="22" fill="url(#use)" filter="url(#glowGreen)"/>
-      <path d="M45 72L61 88L88 55" stroke="#052E16" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="124" y="62" fill="#F8FAFC" class="label" font-size="34">UseMyAI.pro</text>
-      <text x="124" y="96" fill="#86EFAC" class="mono" font-size="17">www.usemyai.pro</text>
-      <text x="124" y="130" fill="#94A3B8" class="copy" font-size="17">AI tools directory, launch kit, product discovery</text>
-      <rect x="124" y="146" width="74" height="28" rx="14" fill="#102112" stroke="#22C55E"/>
-      <text x="161" y="166" text-anchor="middle" fill="#BBF7D0" class="mono" font-size="13">Next</text>
-      <rect x="208" y="146" width="94" height="28" rx="14" fill="#102112" stroke="#FACC15"/>
-      <text x="255" y="166" text-anchor="middle" fill="#FEF9C3" class="mono" font-size="13">Supabase</text>
-      <rect x="312" y="146" width="84" height="28" rx="14" fill="#102112" stroke="#38BDF8"/>
-      <text x="354" y="166" text-anchor="middle" fill="#BAE6FD" class="mono" font-size="13">Vercel</text>
+    <g transform="translate(288 154)">
+      <rect width="196" height="96" rx="22" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="0" y="66" width="196" height="30" rx="0" fill="#05070B" opacity="0.68"/>
+      <rect x="22" y="20" width="56" height="56" rx="14" fill="url(#py)"/>
+      <circle cx="42" cy="42" r="12" fill="#FFFFFF" opacity="0.92"/>
+      <circle cx="58" cy="56" r="12" fill="#0D1117" opacity="0.82"/>
+      <text x="96" y="43" fill="#F8FAFC" class="title" font-size="22">Python</text>
+      <text x="96" y="68" fill="#FDE68A" class="mono" font-size="13">agents</text>
     </g>
-
-    <g transform="translate(200 376)">
-      <path d="M0 28C0 12.536 12.536 0 28 0H326C341.464 0 354 12.536 354 28V118C354 133.464 341.464 146 326 146H28C12.536 146 0 133.464 0 118V28Z" fill="#0D1117" stroke="#334155" stroke-width="2"/>
-      <path d="M0 116C0 132.569 13.431 146 30 146H324C340.569 146 354 132.569 354 116V92C354 108.569 340.569 122 324 122H30C13.431 122 0 108.569 0 92V116Z" fill="#05070B" opacity="0.72"/>
-      <rect x="24" y="24" width="48" height="48" rx="16" fill="url(#focus)"/>
-      <text x="92" y="48" fill="#F8FAFC" class="label" font-size="24">yellatmetofocus</text>
-      <text x="92" y="78" fill="#C4B5FD" class="mono" font-size="14">yellatmetofocus.sbs</text>
-      <text x="92" y="108" fill="#94A3B8" class="copy" font-size="15">focus app, tiny dolphin energy</text>
+    <g transform="translate(506 154)">
+      <rect width="196" height="96" rx="22" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="0" y="66" width="196" height="30" rx="0" fill="#05070B" opacity="0.68"/>
+      <rect x="22" y="20" width="56" height="56" rx="14" fill="url(#js)"/>
+      <text x="40" y="58" fill="#111827" class="title" font-size="24">JS</text>
+      <text x="96" y="43" fill="#F8FAFC" class="title" font-size="22">JavaScript</text>
+      <text x="96" y="68" fill="#FEF08A" class="mono" font-size="13">web glue</text>
     </g>
-
-    <g transform="translate(646 376)">
-      <path d="M0 28C0 12.536 12.536 0 28 0H326C341.464 0 354 12.536 354 28V118C354 133.464 341.464 146 326 146H28C12.536 146 0 133.464 0 118V28Z" fill="#0D1117" stroke="#334155" stroke-width="2"/>
-      <path d="M0 116C0 132.569 13.431 146 30 146H324C340.569 146 354 132.569 354 116V92C354 108.569 340.569 122 324 122H30C13.431 122 0 108.569 0 92V116Z" fill="#05070B" opacity="0.72"/>
-      <rect x="24" y="24" width="48" height="48" rx="16" fill="url(#basalt)"/>
-      <path d="M39 62L48 42L61 67L70 52" stroke="#FFF7ED" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="92" y="48" fill="#F8FAFC" class="label" font-size="24">basalt</text>
-      <text x="92" y="78" fill="#FDBA74" class="mono" font-size="14">basalt.sbs</text>
-      <text x="92" y="108" fill="#94A3B8" class="copy" font-size="15">builder lab, experiments, launch surface</text>
+    <g transform="translate(724 154)">
+      <rect width="196" height="96" rx="22" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="0" y="66" width="196" height="30" rx="0" fill="#05070B" opacity="0.68"/>
+      <rect x="22" y="20" width="56" height="56" rx="14" fill="url(#swift)"/>
+      <path d="M40 37C52 52 65 58 76 59C62 65 48 61 36 52C44 62 55 69 70 72C52 76 35 68 27 55C37 61 47 63 57 61C47 56 38 48 31 37C35 39 38 39 40 37Z" fill="#FFF7ED"/>
+      <text x="96" y="43" fill="#F8FAFC" class="title" font-size="22">Swift</text>
+      <text x="96" y="68" fill="#FDBA74" class="mono" font-size="13">native</text>
+    </g>
+    <g transform="translate(942 154)">
+      <rect width="188" height="96" rx="22" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="0" y="66" width="188" height="30" rx="0" fill="#05070B" opacity="0.68"/>
+      <rect x="22" y="20" width="56" height="56" rx="14" fill="url(#shell)"/>
+      <text x="36" y="57" fill="#0B1220" class="title" font-size="25">$</text>
+      <text x="96" y="43" fill="#F8FAFC" class="title" font-size="22">Shell</text>
+      <text x="96" y="68" fill="#BBF7D0" class="mono" font-size="13">ops</text>
     </g>
   </g>
 
-  <g transform="translate(468 338)" opacity="0.7">
-    <path d="M0 0C58 48 142 48 204 0" stroke="#64748B" stroke-width="2" stroke-dasharray="6 8"/>
-    <path d="M195 -8L212 0L195 8" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="315" fill="#F8FAFC" class="title" font-size="30">AI stack</text>
+  <text x="70" y="342" fill="#94A3B8" class="copy" font-size="16">local agents, model interfaces, deploy surfaces</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(70 366)">
+      <rect width="196" height="104" rx="24" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <circle cx="51" cy="52" r="30" fill="#F8FAFC"/>
+      <path d="M51 29C64 29 74 39 74 52C74 65 64 75 51 75C38 75 28 65 28 52C28 39 38 29 51 29ZM51 39C43.8 39 38 44.8 38 52C38 59.2 43.8 65 51 65C58.2 65 64 59.2 64 52C64 44.8 58.2 39 51 39Z" fill="#0D1117"/>
+      <text x="96" y="45" fill="#F8FAFC" class="title" font-size="24">Codex</text>
+      <text x="96" y="70" fill="#CBD5E1" class="mono" font-size="13">OpenAI</text>
+    </g>
+    <g transform="translate(288 366)">
+      <rect width="196" height="104" rx="24" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <circle cx="51" cy="52" r="30" fill="#D97757"/>
+      <path d="M38 66L51 31L64 66M43 56H59" stroke="#FFF7ED" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="96" y="45" fill="#F8FAFC" class="title" font-size="24">Claude</text>
+      <text x="96" y="70" fill="#FED7AA" class="mono" font-size="13">Anthropic</text>
+    </g>
+    <g transform="translate(506 366)">
+      <rect width="196" height="104" rx="24" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <rect x="22" y="22" width="58" height="58" rx="18" fill="#111827" stroke="#38BDF8" stroke-width="2"/>
+      <text x="34" y="61" fill="#38BDF8" class="title" font-size="24">OC</text>
+      <text x="96" y="45" fill="#F8FAFC" class="title" font-size="24">OpenCode</text>
+      <text x="96" y="70" fill="#BAE6FD" class="mono" font-size="13">terminal AI</text>
+    </g>
+    <g transform="translate(724 366)">
+      <rect width="196" height="104" rx="24" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <path d="M38 24H76L54 58C50 64 38 62 38 54V24Z" fill="#3ECF8E"/>
+      <path d="M76 80H38L60 46C64 40 76 42 76 50V80Z" fill="#1F7A56"/>
+      <text x="96" y="45" fill="#F8FAFC" class="title" font-size="24">Supabase</text>
+      <text x="96" y="70" fill="#BBF7D0" class="mono" font-size="13">data layer</text>
+    </g>
+    <g transform="translate(942 366)">
+      <rect width="188" height="104" rx="24" fill="#0D1117" stroke="#334155" stroke-width="2"/>
+      <path d="M51 23L82 77H20L51 23Z" fill="#F8FAFC"/>
+      <text x="96" y="45" fill="#F8FAFC" class="title" font-size="24">Vercel</text>
+      <text x="96" y="70" fill="#E5E7EB" class="mono" font-size="13">deploy</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 506)">
+    <rect width="1060" height="2" rx="1" fill="url(#rim)" opacity="0.65"/>
+    <text x="0" y="30" fill="#64748B" class="mono" font-size="13">TypeScript / Python / JavaScript / Swift / Shell / Codex / Claude / OpenCode / Supabase / Vercel</text>
   </g>
 </svg>

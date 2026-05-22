@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/tool-stack-3d.svg" alt="3D badges for DeepSleep AI, UseMyAI, yellatmetofocus, and basalt" width="100%" />
+  <img src="assets/tool-stack-3d.svg" alt="3D language banners and AI stack logos" width="100%" />
 </p>
 
 <p align="center">
