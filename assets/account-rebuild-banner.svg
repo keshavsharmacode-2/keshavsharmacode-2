@@ -1,0 +1,83 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Account rebuild banner for Keshav Sharma</title>
+  <desc id="desc">A dark GitHub style banner explaining that the old account got flagged and linking to featured projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B12"/>
+      <stop offset="0.45" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#07130F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="34" x2="1120" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#FACC15"/>
+    </linearGradient>
+    <linearGradient id="chipA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="chipB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="chipC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.16 0 0 0 0 0.9 0 0 0 0 0.56 0 0 0 0.42 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="284" rx="24" stroke="#263244" stroke-width="2"/>
+  <path d="M73 249C169 143 275 104 391 134C506 164 573 57 692 71C827 87 858 205 970 183C1043 169 1079 111 1128 65" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity="0.75" filter="url(#glow)"/>
+  <g opacity="0.2">
+    <path d="M80 70H1116" stroke="#6B7280" stroke-dasharray="6 10"/>
+    <path d="M80 124H1116" stroke="#6B7280" stroke-dasharray="6 10"/>
+    <path d="M80 178H1116" stroke="#6B7280" stroke-dasharray="6 10"/>
+    <path d="M80 232H1116" stroke="#6B7280" stroke-dasharray="6 10"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="64" y="58" width="556" height="184" rx="24" fill="#0D1117" stroke="#303D4F"/>
+    <text x="96" y="108" fill="#E5EDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">old account got flagged</text>
+    <text x="96" y="143" fill="#8B949E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">rebuilding the graph here, shipping the same work with cleaner receipts.</text>
+    <g transform="translate(96 166)">
+      <rect width="130" height="40" rx="20" fill="url(#chipA)" opacity="0.16" stroke="#22C55E"/>
+      <circle cx="24" cy="20" r="7" fill="#22C55E"/>
+      <text x="42" y="26" fill="#D1FAE5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AI tooling</text>
+    </g>
+    <g transform="translate(240 166)">
+      <rect width="122" height="40" rx="20" fill="url(#chipB)" opacity="0.16" stroke="#38BDF8"/>
+      <circle cx="24" cy="20" r="7" fill="#38BDF8"/>
+      <text x="42" y="26" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">frontend</text>
+    </g>
+    <g transform="translate(376 166)">
+      <rect width="164" height="40" rx="20" fill="url(#chipC)" opacity="0.16" stroke="#FACC15"/>
+      <circle cx="24" cy="20" r="7" fill="#FACC15"/>
+      <text x="42" y="26" fill="#FEF9C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">automation</text>
+    </g>
+  </g>
+
+  <g transform="translate(680 52)">
+    <rect width="432" height="216" rx="24" fill="#0D1117" stroke="#303D4F"/>
+    <text x="32" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">live links</text>
+    <text x="32" y="78" fill="#8B949E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">current builds, packages, and shipped experiments</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">
+      <rect x="32" y="104" width="368" height="34" rx="17" fill="#111827" stroke="#1F6FEB"/>
+      <text x="50" y="127" fill="#58A6FF">yellatmetofocus.sbs</text>
+      <rect x="32" y="148" width="368" height="34" rx="17" fill="#111827" stroke="#22C55E"/>
+      <text x="50" y="171" fill="#86EFAC">basalt.sbs</text>
+      <rect x="32" y="192" width="176" height="34" rx="17" fill="#111827" stroke="#A855F7"/>
+      <text x="50" y="215" fill="#D8B4FE">deepsleep-ai</text>
+      <rect x="224" y="192" width="176" height="34" rx="17" fill="#111827" stroke="#FACC15"/>
+      <text x="242" y="215" fill="#FEF08A">usemyai.pro</text>
+    </g>
+  </g>
+</svg>

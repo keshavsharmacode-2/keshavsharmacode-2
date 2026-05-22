@@ -3,6 +3,39 @@
 </p>
 
 <p align="center">
+  <img src="assets/account-rebuild-banner.svg" alt="old account got flagged, rebuilding here with live project links" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://yellatmetofocus.sbs"><img src="https://img.shields.io/badge/yellatmetofocus.sbs-focus_app-58a6ff?style=for-the-badge&labelColor=0d1117" alt="yellatmetofocus.sbs" /></a>
+  <a href="https://basalt.sbs"><img src="https://img.shields.io/badge/basalt.sbs-builder_lab-22c55e?style=for-the-badge&labelColor=0d1117" alt="basalt.sbs" /></a>
+  <a href="https://pypi.org/project/deepsleep-ai/"><img src="https://img.shields.io/badge/PyPI-deepsleep--ai-3776ab?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0d1117" alt="deepsleep-ai on PyPI" /></a>
+  <a href="https://www.usemyai.pro/"><img src="https://img.shields.io/badge/usemyai.pro-ai_tools-facc15?style=for-the-badge&labelColor=0d1117" alt="usemyai.pro" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift&logoColor=F05138" alt="Swift" />
+  <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Automation-111827?style=flat-square&logo=githubactions&logoColor=22C55E" alt="Automation" />
+</p>
+
+<p align="center">
+  <strong>old account got flagged, so this is the rebuilt home base.</strong><br>
+  same builder energy, cleaner receipts, live projects below.
+</p>
+
+<p align="center">
+  <img src="assets/repo-push-3d.svg" alt="3D repo push commit viewer" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/old-account-snapshot.png" alt="old GitHub account snapshot showing repositories and contributions" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:0d1117&height=300&section=header&text=Keshav%20Sharma&fontSize=70&fontAlignY=32&desc=Building%20AI%20products%20&%20systems&descAlignY=52&descSize=20&fontColor=ffffff" width="100%" />
 </p>
 
