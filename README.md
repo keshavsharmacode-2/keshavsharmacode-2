@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="githero.png" alt="hero" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:0d1117&height=300&section=header&text=Keshav%20Sharma&fontSize=70&fontAlignY=32&desc=Building%20AI%20products%20&%20systems&descAlignY=52&descSize=20&fontColor=ffffff" width="100%" />
 </p>
 
