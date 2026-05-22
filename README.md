@@ -2,73 +2,67 @@
   <img src="githero.png" alt="hero" width="100%" />
 </p>
 
+<br>
+
 <div align="center">
 
-# Keshav Sharma
+**keshav sharma**
 
-### AI Builder • Agent Systems • Product Designer  
-Building AI tools, agents, launch platforms, and automation systems.
+building products · ai tooling · interfaces · automation · design engineering
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-usemyai.pro-black?style=for-the-badge)](https://www.usemyai.pro/)
-[![GitHub](https://img.shields.io/badge/GitHub-Keshavsharma--code-181717?style=for-the-badge&logo=github)](https://github.com/Keshavsharma-code)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge)](mailto:keshavsh9799@gmail.com)
+[portfolio](https://www.usemyai.pro/) · [github](https://github.com/keshavsharmacode-2) · [email](mailto:keshavsh9799@gmail.com)
 
 </div>
 
----
-
-## Current Focus
-
-- Building **usemyai.pro** — AI tools discovery + launch platform  
-- Building private AI agent systems and automation workflows  
-- Learning product engineering, frontend, backend, and AI agent infrastructure  
-- Goal: ship real products, get users, and build proof through execution  
+<br>
 
 ---
 
-## Projects
+<br>
 
-| Project | What it does | Status |
-|---|---|---|
-| **usemyai.pro** | AI tools discovery and launch platform | Live |
-| **TalkingBots** | AI agent rooms and agent society concept | MVP |
-| **BotBox** | Create, train, and share AI agents | MVP |
-| **Basalt** | Agent-ready docs / MCP generator concept | Private |
-| **OmniFlow** | Private executive AI workflow system | Private |
+**current focus**
+
+building [usemyai.pro](https://www.usemyai.pro/) — ai tools discovery and launch platform. working across frontend systems, ai agent infrastructure, and product design. shipping real things.
+
+<br>
 
 ---
 
-## Tech Stack
+<br>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,supabase,vercel,github,html,css,tailwind" />
-</p>
+**stack**
+
+`typescript` · `react` · `nextjs` · `node` · `python` · `tailwind` · `supabase` · `vercel`
+
+<br>
 
 ---
 
-## GitHub Activity
+<br>
+
+**stats**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Keshavsharma-code&show_icons=true&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=keshavsharmacode-2&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Keshavsharma-code&theme=github-dark-blue&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=keshavsharmacode-2&theme=github-dark-blue&hide_border=true&background=00000000" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Keshavsharma-code&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=keshavsharmacode-2&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000" />
 </p>
 
----
-
-## Direction
-
-I am focused on becoming a serious AI-native builder:  
-less talking, more shipping, more users, more proof.
-
----
+<br>
 
 <p align="center">
-  <img src="https://metrics.lecoq.io/Keshavsharma-code?template=classic&base.header=0&base.activity=1&base.community=1&base.repositories=1&isocalendar=1&languages=1&achievements=1&stargazers=1&config.timezone=Asia%2FKolkata" alt="metrics" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=keshavsharmacode-2&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=keshavsharmacode-2&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=keshavsharmacode-2&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=keshavsharmacode-2&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=keshavsharmacode-2&theme=github_dark&utcOffset=5.5" />
 </p>
