@@ -21,10 +21,12 @@
       <p><strong>Old account got banned / flagged.</strong> Rebuilding here with the real project trail, shipped products, and receipts.</p>
       <h3>Current products</h3>
       <p>
-        <a href="https://pypi.org/project/deepsleep-ai/"><img src="https://img.shields.io/badge/DeepSleep_AI-PyPI-3776AB?style=for-the-badge&logo=pypi&logoColor=white" alt="DeepSleep AI" /></a>
-        <a href="https://www.usemyai.pro/"><img src="https://img.shields.io/badge/UseMyAI.pro-AI_tools-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="UseMyAI.pro" /></a>
-        <a href="https://yellatmetofocus.sbs"><img src="https://img.shields.io/badge/yellatmetofocus.sbs-focus_app-7C3AED?style=for-the-badge" alt="yellatmetofocus.sbs" /></a>
-        <a href="https://basalt.sbs"><img src="https://img.shields.io/badge/basalt.sbs-builder_lab-F97316?style=for-the-badge" alt="basalt.sbs" /></a>
+        <a href="https://pypi.org/project/deepsleep-ai/"><img src="assets/product-deepsleep.png" alt="DeepSleep AI" width="49%" /></a>
+        <a href="https://www.usemyai.pro/"><img src="assets/product-usemyai.png" alt="UseMyAI.pro" width="49%" /></a>
+      </p>
+      <p>
+        <a href="https://yellatmetofocus.sbs"><img src="assets/product-yellatmetofocus.png" alt="YellAtMeToFocus" width="49%" /></a>
+        <a href="https://basalt.sbs"><img src="assets/product-basalt.png" alt="Basalt" width="49%" /></a>
       </p>
       <h3>Tech stack</h3>
       <p>
