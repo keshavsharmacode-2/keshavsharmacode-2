@@ -28,6 +28,11 @@
         <a href="https://yellatmetofocus.sbs"><img src="assets/product-yellatmetofocus.png" alt="YellAtMeToFocus" width="49%" /></a>
         <a href="https://basalt.sbs"><img src="assets/product-basalt.png" alt="Basalt" width="49%" /></a>
       </p>
+      <p>
+        <a href="https://www.credly.com/badges/9ff19900-c7fb-4801-87af-4104ecca8aa9" target="_blank">
+          <img src="https://images.credly.com/images/082c8d0c-5232-4597-b6c4-6bebcc4f3046/linkedin_thumb_blob" width="150" height="150" alt="Credly Badge" />
+        </a>
+      </p>
       <h3>Tech stack</h3>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
